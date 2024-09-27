@@ -37,22 +37,22 @@ There are 11 tasks to complete and 1 bonus.
 Your goal is to meet at least 75% of these requirements to complete the assignment. But don't stop there! Shoot for 100%!
 
 **Functionality**
-* <input type="checkbox" > On load of the page, a user see a list of pokemon cards displaying each pokemon's name, front sprite, and HP level.
-* <input type="checkbox" > A user can click on a pokemon card to toggle seeing its front sprite or back sprite.
-* <input type="checkbox" > A user can use the search bar to filter pokemon by name.
-* <input type="checkbox" > A user can fill out and submit the form to create a new pokemon. This will display the new pokemon on the page and the new pokemon data should persist, even after the page is refreshed. This means you'll have to make a POST request to our JSON Server API!
+* <input type="checkbox" checked> On load of the page, a user see a list of pokemon cards displaying each pokemon's name, front sprite, and HP level.
+* <input type="checkbox" checked> A user can click on a pokemon card to toggle seeing its front sprite or back sprite.
+* <input type="checkbox" checked> A user can use the search bar to filter pokemon by name.
+* <input type="checkbox" checked> A user can fill out and submit the form to create a new pokemon. This will display the new pokemon on the page and the new pokemon data should persist, even after the page is refreshed. This means you'll have to make a POST request to our JSON Server API!
 * <input type="checkbox" > Bonus: A user can additionally filter pokemon by HP
 
 **React Fundamentals**
-* <input type="checkbox" > `useState` is used to manage state. This is done in the Context Provider file at least once.
-* <input type="checkbox" > `useEffect` is used to perform an asynchronous fetch call. This is done in the Context Provider file at least once.
-* <input type="checkbox" > The form must be a controlled component. The `value` prop of the `input` elements should be set to a state value and `onChange` should update that state value.
-* <input type="checkbox" > The project uses React Context.
-* <input type="checkbox" > The project uses `useContext` at least once
+* <input type="checkbox" checked> `useState` is used to manage state. This is done in the Context Provider file at least once.
+* <input type="checkbox" checked> `useEffect` is used to perform an asynchronous fetch call. This is done in the Context Provider file at least once.
+* <input type="checkbox" checked> The form must be a controlled component. The `value` prop of the `input` elements should be set to a state value and `onChange` should update that state value.
+* <input type="checkbox" checked > The project uses React Context.
+* <input type="checkbox" checked > The project uses `useContext` at least once
 
 **Miscellaneous**
-* <input type="checkbox" > Props are extracted in child components using destructuring
-* <input type="checkbox" > At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
+* <input type="checkbox" checked> Props are extracted in child components using destructuring
+* <input type="checkbox" checked> At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
 
 **Note:** We are requiring you use React Context for this assignment, however it does not mean that Context is necessarily the right tool for this job. For a project this small, Context may not be the best solution. However, for now, use it!
 
