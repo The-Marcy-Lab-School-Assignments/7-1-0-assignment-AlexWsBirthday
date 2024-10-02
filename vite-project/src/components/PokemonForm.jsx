@@ -14,7 +14,8 @@ const PokemonForm = () => {
     //3. reset the form's value 
 
 
-
+//feedback:
+// Ensure the handleSubmit function in PokemonForm updates allPokemon directly upon form submission to re-render immediately.
     //handleSubmit is async because it performs a data exchange (which requires sending out a request to the server)
     const handleSubmit = async (e) => {
         // prevents page refresh on submission 

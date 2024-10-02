@@ -27,11 +27,12 @@ const starterPokemon = [
         back: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png"
     }
 ]
-
+// Every time that we add a new pokemon we should do a new fetch request to the server to get the updated list of pokemon and update the state with the new list of pokemon.
 const PokemonProvider = ({ children }) => {
     //1. set useState to determine the data you want to export into the pokemon context object. Right now, our default state piece value is the object full of pokemon objects above, starterPokemon.
     const [allPokemon, setAllPokemon] = useState([]);
-
+// you should have the error state piece initialized here as well
+    // const [error, setError] = useState(null)
 
     // TODO: use useEffect to fetch data from the local JSON server (remember to start JSON server!)
     useEffect(() => {
@@ -43,7 +44,7 @@ const PokemonProvider = ({ children }) => {
             //if there's data, feed it to the setter function we initialized above. error will remain as null
             if (data) setAllPokemon(data)
             //if there's an error, set the error variable. data will remain as null
-            if (error) setError(error)
+            if (error) setError(error)// this is a state piece we haven't initialized yet
         };
 
         //immediately calling the fetch function

@@ -85,11 +85,11 @@
       "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png"
     },
     {
-      "name": "hsdafl",
-      "hp": "1",
-      "front": "https://i.pinimg.com/564x/6a/3f/28/6a3f28d77001f755a4e35b38ab3dcdcc.jpg",
-      "back": "https://i.pinimg.com/564x/29/ce/59/29ce59c9b01336aba4ef81a848a3692d.jpg",
-      "id": 20
+      "name": "Ben Spector",
+      "hp": "100",
+      "front": "https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png",
+      "back": "https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png",
+      "id": 13
     }
   ]
 }
